@@ -1,0 +1,21 @@
+
+.box {
+  background-color: lightblue;
+  padding: 10px;
+
+}
+#outer-box{
+ background-color: black;
+
+}
+.white-text{
+  background-color: grey;
+  padding: 10px;
+  color: white;
+}
+
+p {
+  color: red;
+  margin: 0;
+  padding: 0;
+}
