@@ -19,12 +19,58 @@ footer {
   color: midnightblue;
   
 }
-.card{
-  display: flex;
-}
-img{
+
+.tile-image {
   height: 200px;
-  width: 300px;
+
+  float: left;
+  margin-right: 50px;
+
+}
+.card-text{
+  height: 100px;
+  
+}
+.card {
+  width: 45%;
+  margin: 0%;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
 
 
+span{
+  color:darkblue;
+}
+
+@media(max-width: 680px){
+  img.logo{
+    width: 100px;
+  }
+  h1{
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  img.logo{
+    height: 46px;
+    width: 263px;
+  }
+  .card{
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
